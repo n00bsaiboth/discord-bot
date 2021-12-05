@@ -1,4 +1,14 @@
 {
+  "name": "discordbot",
+  "description": "simple discord bot",
+  "version": "0.0.2",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx babel-node index.js"
+  },
+  "keywords": ["discord", "bot", "javascript", "node"],
+  "author": "Jussi Jokinen",
+  "licence": "MIT",
   "dependencies": {
     "@discordjs/builders": "^0.6.0",
     "@discordjs/rest": "^0.1.0-canary.0",
@@ -8,6 +18,9 @@
     "node-fetch": "^3.0.0"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/node": "^7.16.0",
+    "@babel/preset-env": "^7.16.4",
     "eslint": "^8.4.0"
   }
 }
