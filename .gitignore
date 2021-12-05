@@ -186,3 +186,7 @@ $RECYCLE.BIN/
 # hide discord bot credentials
 
 config.json
+
+# hide .env file if used
+
+.env
