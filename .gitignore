@@ -180,9 +180,10 @@ $RECYCLE.BIN/
 *.lnk
 
 # hide discord bot credentials
-
 config.json
 
 # hide .env file if used
-
 .env
+
+# hide start-bot script
+start-bot.sh
