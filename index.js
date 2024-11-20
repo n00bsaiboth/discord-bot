@@ -17,9 +17,11 @@ client.on('interactionCreate', async interaction => {
 
 	if (commandName === 'welcome') {
 		await interaction.reply('Welcome to our server!');
-	} else if (commandName === 'server') {
+	}
+	else if (commandName === 'server') {
 		await interaction.reply(`Server name: ${interaction.guild.name}\nTotal members: ${interaction.guild.memberCount}`);
-	} else if (commandName === 'user') {
+	}
+	else if (commandName === 'user') {
 		await interaction.reply(`Your tag: ${interaction.user.tag}\nYour id: ${interaction.user.id}`);
 	}
 });
